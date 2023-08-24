@@ -51,7 +51,7 @@ def wish():
         speak(f'Good Afternoon, its {tt}')
     else:
         speak(f'Good Evening, its {tt}')
-    speak('Bumblebee Here, Please tell me how may I help you?')
+    speak('Jarvis Here, Please tell me how may I help you?')
    
 def sendEmail(to,content):
     server = smtplib.SMTP('smtplib.gmail.com', 587)
